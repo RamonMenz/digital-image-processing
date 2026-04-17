@@ -16,7 +16,7 @@ Sistema desktop desenvolvido em **Java** com **Swing** para a disciplina de **Pr
 mvn clean compile
 
 # Executar a aplicação
-mvn exec:java -Dexec.mainClass="br.feevale.App"
+mvn exec:java "-Dexec.mainClass=br.feevale.App"
 
 # Ou criar o JAR e executar
 mvn clean package
